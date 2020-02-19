@@ -1,0 +1,24 @@
+/* -------------------- Container -------------------- */
+
+/* Classes */
+.contentPresentation {
+    margin-bottom: 2%;
+}
+
+.content {
+    margin-bottom: 2%;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #142850;
+    box-shadow: 10px 10px 7px #512b58;
+    background-color: #fff;
+}
+
+/* id */
+#presentationText {
+    margin: 1%
+}
+
+#photo > img {
+    border-radius: 100px;
+}

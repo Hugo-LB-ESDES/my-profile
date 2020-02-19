@@ -1,0 +1,44 @@
+@import url("components/button.css");
+@import url("components/content.css");
+
+body {
+    background-color: #f1f3f4;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+a:visited{
+    color:#fff;
+}
+
+h1 {
+    text-align: center;
+    color: #142850;
+}
+
+h3 {
+    margin: 1%;
+}
+
+hr {
+    height: 2px; 
+    color: black; 
+    background-color: black; 
+    width: 70%;
+}
+
+/* -------------------- Media Queries -------------------- */
+
+@media (max-width: 750px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
